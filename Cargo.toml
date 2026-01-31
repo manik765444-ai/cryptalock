@@ -1,0 +1,15 @@
+[package]
+name = "cryptalock"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A file encryption tool written in Rust."
+license = "MIT"
+repository = "https://github.com/yourusername/cryptalock"
+
+[dependencies]
+aes = "0.8"
+block-modes = "0.9"
+rand = "0.8"
+hex = "0.4"
+clap = { version = "4.0", features = ["derive"] }
